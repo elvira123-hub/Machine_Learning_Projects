@@ -1,6 +1,6 @@
 # Machine_Learning_Projects
 
-# Project1: Machine Learning Workflow for Potential Energy Prediction
+**# Project1: AI4Chem**
 
 In this project, I develop a simple proof of concept to investigate whether a machine learning model specifically, an **ensemble of neural networks** can accurately reproduce the CCSD(T) Cu–He binding energy curve while providing an estimate of the prediction uncertainty.
 
@@ -12,3 +12,6 @@ This repository demonstrates a complete end-to-end machine learning workflow, in
 
 
 **Take-home message:** Such an approach is not essential for a simple diatomic system (Cu–He interaction), as other well-established potentials, such as the Morse potential, already reproduce the binding energy curve extremely well. However, I use this approach because it provides the foundation for treating realistic molecular systems with many degrees of freedom, where high-level *ab initio* calculations become computationally prohibitive.
+
+
+# Machine Learning Workflow for Potential Energy Prediction<img width="900" height="190" alt="grafik" src="https://github.com/user-attachments/assets/c7b32987-bd72-40ba-9c92-069e017c9861" />
