@@ -11,7 +11,7 @@ The Cu–He diatomic interaction serves as a **toy model**, allowing the complet
 This repository demonstrates a complete end-to-end machine learning workflow, including data preprocessing, neural network training, ensemble learning, uncertainty quantification, and visualization of the predicted potential energy surface. It is intended as a practical introduction to surrogate modeling for computational chemistry and scientific machine learning, while illustrating concepts that are broadly applicable to engineering, physics, and data-driven scientific computing.
 
 
-**Take-home message:** Such an approach is not essential for a simple diatomic system (Cu–He interaction), as other well-established potentials, such as the Morse potential, already reproduce the binding energy curve extremely well. However, I use this approach because it provides the foundation for treating realistic molecular systems with many degrees of freedom, where high-level *ab initio* calculations become computationally prohibitive.
+**Take-home message:** it is worth emphasizing that the objective of this work is not to outperform well-established analytical potentials for a simple diatomic system, but rather to demonstrate a machine learning workflow that can be naturally extended to complex molecular systems with many degrees of freedom. I chose this approach because it provides the foundation for treating realistic molecular systems with many degrees of freedom, where high-level *ab initio* calculations become computationally prohibitive.
 
 
 # Machine Learning Workflow for Potential Energy Prediction <img width="1024" height="1536" alt="summary" src="https://github.com/user-attachments/assets/35df8d9b-37a6-4919-8717-302cacaf5453" />
